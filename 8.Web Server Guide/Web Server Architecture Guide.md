@@ -78,6 +78,8 @@ sequenceDiagram
 **Characteristics:**
 - Single thread handles multiple requests
 - Non-blocking I/O operations
+    - Instead of halting the entire program, non-blocking I/O utilizes asynchronous callbacks or promises to handle I/O operations in the background. This enables Node to handle multiple operations concurrently without being blocked, resulting in better performance and responsiveness
+  
 - Event loop manages requests
 - Highly scalable
 - Efficient resource usage
