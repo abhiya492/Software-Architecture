@@ -56,6 +56,8 @@ REST (**Representational State Transfer**) is an architectural style for designi
 
 **REST architecture often incorporates proxies, gateways, and load balancers to enhance performance, security, and scalability by acting as intermediaries between clients and backend** **services.**
 **Here's a more detailed explanation of how these components fit into a REST architecture:**
+![image](https://github.com/user-attachments/assets/ae6ccef5-85f1-44b1-8ac1-19b51d83a80b)
+
 
 **Load Balancers:**
 **Distribute incoming traffic across multiple servers, preventing any single server from being overloaded.** 
@@ -65,7 +67,7 @@ REST (**Representational State Transfer**) is an architectural style for designi
 **Reverse Proxies:**
 **Act as intermediaries between clients and web servers, handling requests and responses on behalf of the server.**
 **Provide caching, security, and load balancing functionalities.**
-**Can terminate SSL/TLS encryption, reducing the load on the backend servers.**
+**Can terminate SSL/TLS encryption, reducing the load on the backend servers.[by handling the encryption and decryption of HTTPS traffic]**
 
 **API Gateways:**
 **Serve as a single entry point for clients to access multiple backend services or APIs.**
