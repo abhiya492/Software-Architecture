@@ -20,12 +20,18 @@
 
 ## Understanding Load Balancer  
 A **load balancer** acts as a mediator between clients and servers, distributing incoming requests across multiple servers in a server farm. It helps achieve scalability, fault tolerance, and improved performance by evenly distributing the workload. Load balancers use various algorithms to determine which server should handle each request, considering factors like server health, available resources, and session persistence.  
+![image](https://github.com/user-attachments/assets/aaa3352d-30ab-4b80-aab7-b34e17bcdc8b)
+
 
 ## Understanding Reverse Proxy  
 A **reverse proxy**, also known as an application-level gateway, sits between clients and servers and handles requests on behalf of the servers. It acts as an intermediary for client requests, forwarding them to the appropriate server and returning the server's response to the client. Reverse proxies provide benefits such as caching, SSL termination, and improved security by shielding servers from direct exposure to the internet.  
+![image](https://github.com/user-attachments/assets/46ffca44-5124-43cf-97f5-ca1acc593a71)
+
 
 ## Understanding API Gateway  
 An **API gateway** is an entry point for clients to access backend services or APIs. It acts as a single point of entry, abstracting the underlying architecture and providing a unified interface for clients. API gateways offer various functionalities like request routing, protocol translation, authentication, and rate limiting, enabling organizations to manage and secure their APIs effectively.  
+![image](https://github.com/user-attachments/assets/2c3aea1d-a3fb-4ffa-a732-9b5d77df23a6)
+
 
 ## Key Differences  
 
