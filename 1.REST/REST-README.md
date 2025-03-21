@@ -192,18 +192,26 @@ GET /articles?state=published&sort=date&fields=title,author
 
 ## ⚡ Advantages of REST
 ✅ **Scalability** → Stateless nature enables horizontal scaling.
+
 ✅ **Simplicity** → Uses **standard HTTP methods** and status codes.
+
 ✅ **Flexibility** → Supports **JSON, XML, etc.**
+
 ✅ **Independence** → Client and server evolve separately.
+
 ✅ **Visibility** → HTTP operations are **monitorable**.
 
 ---
 
 ## ⚠️ Common Challenges
 ❌ **Over/Under-fetching** → Too much or too little data in responses.
+
 ❌ **N+1 Problem** → Too many requests for related resources.
+
 ❌ **Authentication** → Secure authentication methods (**JWT, OAuth**).
+
 ❌ **Backward Compatibility** → Supporting multiple API versions.
+
 ❌ **Documentation** → Keeping API docs updated (**OpenAPI, Swagger**).
 
 ---
