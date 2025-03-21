@@ -101,7 +101,7 @@ REST (**Representational State Transfer**) is an architectural style for designi
 ### **🖥️ Resource-based URLs:**
 ```bash
 GET /users/{username}          # Get user profile
-GET /repos/{owner}/{repo}      # Get repository info
+GET /repos/{owner}/{repo}      # Get repository info //PUT replaces an entire resource, while PATCH applies partial updates to a resource, modifying specific fields rather than replacing the entire entity
 GET /repos/{owner}/{repo}/issues  # Get issues
 ```
 
