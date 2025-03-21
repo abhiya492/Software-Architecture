@@ -67,7 +67,7 @@ REST (**Representational State Transfer**) is an architectural style for designi
 **Reverse Proxies:**
 **Act as intermediaries between clients and web servers, handling requests and responses on behalf of the server.**
 **Provide caching, security, and load balancing functionalities.**
-**Can terminate SSL/TLS encryption, reducing the load on the backend servers.[by handling the encryption and decryption of HTTPS traffic]**
+**Can terminate SSL/TLS{{SSL stands for Secure Sockets Layer, a technology that encrypts data between a server and a client//TLS (Transport Layer Security) is the modern, more secure successor to SSL (Secure Sockets Layer)}} encryption, reducing the load on the backend servers.[by handling the encryption and decryption of HTTPS traffic]**
 
 **API Gateways:**
 **Serve as a single entry point for clients to access multiple backend services or APIs.**
