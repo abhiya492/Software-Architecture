@@ -53,6 +53,7 @@ REST (**Representational State Transfer**) is an architectural style for designi
 ### **4️⃣ Layered System**
 ✅ REST architectures may include **proxies, gateways, load balancers**.
 
+
 **REST architecture often incorporates proxies, gateways, and load balancers to enhance performance, security, and scalability by acting as intermediaries between clients and backend** **services.**
 **Here's a more detailed explanation of how these components fit into a REST architecture:**
 
