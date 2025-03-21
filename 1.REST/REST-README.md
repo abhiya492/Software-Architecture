@@ -53,6 +53,29 @@ REST (**Representational State Transfer**) is an architectural style for designi
 ### **4️⃣ Layered System**
 ✅ REST architectures may include **proxies, gateways, load balancers**.
 
+**REST architecture often incorporates proxies, gateways, and load balancers to enhance performance, security, and scalability by acting as intermediaries between clients and backend** **services.**
+**Here's a more detailed explanation of how these components fit into a REST architecture:**
+
+**Load Balancers:**
+**Distribute incoming traffic across multiple servers, preventing any single server from being overloaded.** 
+**Improve application availability and reduce downtime by ensuring requests are routed to healthy servers.** 
+**Enable easy scaling of applications by simply adding more servers to the load balancer's pool.**
+
+**Reverse Proxies:**
+**Act as intermediaries between clients and web servers, handling requests and responses on behalf of the server.**
+**Provide caching, security, and load balancing functionalities.**
+**Can terminate SSL/TLS encryption, reducing the load on the backend servers.**
+
+**API Gateways:**
+**Serve as a single entry point for clients to access multiple backend services or APIs.**
+**Provide features like authentication, authorization, request routing, and API versioning.**
+**Can also perform tasks like request transformation, aggregation, and protocol translation.**
+
+**How they work together:**
+**Clients send requests to the load balancer, which then distributes them to available servers.** 
+**Reverse proxies can sit in front of the backend servers, handling tasks like caching and security.**
+**API gateways can be used to manage and secure API traffic, routing requests to the appropriate backend services**
+
 ✅ Each layer interacts only with adjacent layers.
 
 ✅ Benefits:
