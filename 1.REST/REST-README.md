@@ -78,6 +78,8 @@ REST (**Representational State Transfer**) is an architectural style for designi
 **Clients send requests to the load balancer, which then distributes them to available servers.** 
 **Reverse proxies can sit in front of the backend servers, handling tasks like caching and security.**
 **API gateways can be used to manage and secure API traffic, routing requests to the appropriate backend services**
+![image](https://github.com/user-attachments/assets/53704321-adf0-48c6-9d39-c189e4def8d9)
+
 
 ✅ Each layer interacts only with adjacent layers.
 
