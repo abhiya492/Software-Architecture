@@ -34,6 +34,7 @@ REST (**Representational State Transfer**) is an architectural style for designi
 
 ### **2️⃣ Statelessness**
 ✅ Each request contains all required information.
+
 ✅ Benefits:
 - Improved **reliability** (server crashes don’t affect client state)
 - Better **scalability** (any server can handle any request)
@@ -41,15 +42,19 @@ REST (**Representational State Transfer**) is an architectural style for designi
 
 ### **3️⃣ Cacheability**
 ✅ Servers define responses as **cacheable** or **non-cacheable**.
+
 ✅ Benefits:
 - Reduced **server load**
 - Improved **client performance**
 - Less **network traffic**
+
 ✅ **Cache-Control** headers & **ETags** help in validating freshness.
 
 ### **4️⃣ Layered System**
 ✅ REST architectures may include **proxies, gateways, load balancers**.
+
 ✅ Each layer interacts only with adjacent layers.
+
 ✅ Benefits:
 - **Security** (firewalls)
 - **Load balancing**
