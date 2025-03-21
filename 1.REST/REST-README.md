@@ -165,7 +165,7 @@ GET /repos/{owner}/{repo}/issues  # Get issues
 ✅ Via **URL:** `/v1/resources`
 ✅ Via **Header:** `Accept: application/vnd.company.v1+json`
 
-### **🔹 Pagination for Large Datasets**
+### **🔹 Pagination for Large Datasets: the process of dividing large content, whether digital or printed, into smaller, manageable "pages" for easier navigation and display** 
 ```bash
 GET /articles?page=2&per_page=25
 ```
